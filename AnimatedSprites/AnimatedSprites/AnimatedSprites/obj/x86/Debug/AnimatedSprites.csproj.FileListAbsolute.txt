@@ -1,0 +1,20 @@
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Images\ThreeRings.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\AnimatedSprites.exe
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\AnimatedSprites.pdb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\obj\x86\Debug\AnimatedSprites.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\obj\x86\Debug\AnimatedSprites.exe
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\obj\x86\Debug\AnimatedSprites.pdb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Images\skullball.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Images\tenSprite.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Images\plus.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\textfont.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\AgainFont.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Audio\GameAudio.xgs
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Fonts\scoreFont.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Images\bolt.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Images\fourblades.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Images\threeblades.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Images\background.xnb

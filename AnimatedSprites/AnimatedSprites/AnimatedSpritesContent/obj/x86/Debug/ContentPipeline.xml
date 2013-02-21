@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Images\ThreeRings.png</Source>
+      <Name>Images\ThreeRings</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Images\ThreeRings.xnb</Output>
+      <Time>2013-02-20T23:35:17.3943602+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\skullball.png</Source>
+      <Name>Images\skullball</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Images\skullball.xnb</Output>
+      <Time>2013-02-19T13:36:41.5200276+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\tenSprite.png</Source>
+      <Name>Images\tenSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Images\tenSprite.xnb</Output>
+      <Time>2013-02-19T16:17:13.0609203+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\plus.png</Source>
+      <Name>Images\plus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Images\plus.xnb</Output>
+      <Time>2013-02-20T13:27:37.0714763+00:00</Time>
+    </Item>
+    <Item>
+      <Source>textfont.spritefont</Source>
+      <Name>textfont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\textfont.xnb</Output>
+      <Time>2013-02-20T14:03:55.0000467+00:00</Time>
+    </Item>
+    <Item>
+      <Source>AgainFont.spritefont</Source>
+      <Name>AgainFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\AgainFont.xnb</Output>
+      <Time>2013-02-20T14:09:48.4942654+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\scoreFont.spritefont</Source>
+      <Name>Fonts\scoreFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Fonts\scoreFont.xnb</Output>
+      <Time>2013-02-20T22:08:47.3556906+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bolt.png</Source>
+      <Name>Images\bolt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Images\bolt.xnb</Output>
+      <Time>2013-02-20T22:50:55.5893686+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\fourblades.png</Source>
+      <Name>Images\fourblades</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Images\fourblades.xnb</Output>
+      <Time>2013-02-20T22:51:09.7740093+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\threeblades.png</Source>
+      <Name>Images\threeblades</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Images\threeblades.xnb</Output>
+      <Time>2013-02-20T22:51:20.9124289+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\background.JPG</Source>
+      <Name>Images\background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\Images\background.xnb</Output>
+      <Time>2013-02-20T23:29:34.3834544+00:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSpritesContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSpritesContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-02-19T10:04:48.3238744+00:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
