@@ -1,0 +1,12 @@
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\3D Game\3D Game\3D Game\bin\x86\Debug\Content\Models\spaceship.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\3D Game\3D Game\3D Game\bin\x86\Debug\3D Game.exe
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\3D Game\3D Game\3D Game\bin\x86\Debug\3D Game.pdb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\3D Game\3D Game\3D Game\obj\x86\Debug\3D Game.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\3D Game\3D Game\3D Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\3D Game\3D Game\3D Game\obj\x86\Debug\3D Game.exe
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\3D Game\3D Game\3D Game\obj\x86\Debug\3D Game.pdb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\3D Game\3D Game\3D Game\bin\x86\Debug\Content\Models\ammo.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\3D Game\3D Game\3D Game\bin\x86\Debug\Content\Textures\Crosshair.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\3D Game\3D Game\3D Game\bin\x86\Debug\Content\Audio\GameAudio.xgs
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\3D Game\3D Game\3D Game\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\3D Game\3D Game\3D Game\bin\x86\Debug\Content\Audio\Sound Bank.xsb
