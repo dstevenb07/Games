@@ -1,0 +1,4 @@
+Content\Images\GreenSquare.xnb
+Content\Images\GreenPlayer.xnb
+Content\Images\GreenEnemy.xnb
+Content\Fonts\BasicFont.xnb

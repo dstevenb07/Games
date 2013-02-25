@@ -1,0 +1,10 @@
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pong\Pong\Pong\bin\x86\Debug\Pong.exe
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pong\Pong\Pong\bin\x86\Debug\Pong.pdb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pong\Pong\Pong\obj\x86\Debug\Pong.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pong\Pong\Pong\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pong\Pong\Pong\obj\x86\Debug\Pong.exe
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pong\Pong\Pong\obj\x86\Debug\Pong.pdb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pong\Pong\Pong\bin\x86\Debug\Content\Images\GreenSquare.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pong\Pong\Pong\bin\x86\Debug\Content\Images\GreenPlayer.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pong\Pong\Pong\bin\x86\Debug\Content\Images\GreenEnemy.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pong\Pong\Pong\bin\x86\Debug\Content\Fonts\BasicFont.xnb
