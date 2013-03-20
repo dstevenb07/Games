@@ -22,7 +22,7 @@ namespace Pacman
         Ghost blueGhost;
         Player pacman;
         Level level;
-        //Pellet pellet;
+        Pellet pellet;
 
         public Game1()
         {
@@ -32,7 +32,7 @@ namespace Pacman
             redGhost = new Ghost(Color.Red, new Vector2(40, 40));
             blueGhost = new Ghost(Color.Blue, new Vector2(480, 400));
             level = new Level();
-            //pellet = new Pellet();
+            pellet = new Pellet(Vector2.Zero);
         }
 
         /// <summary>
@@ -60,7 +60,7 @@ namespace Pacman
             blueGhost.LoadContent(Content);
             level.LoadLevel(LevelData.Data, Content);
             pacman.bounds = pacman.BoundInitiate();
-            //pellet.LoadContent(Content);
+            pellet.LoadContent(Content);
         }
 
         /// <summary>
@@ -91,10 +91,11 @@ namespace Pacman
             if (pacman.Bounds.Intersects(blueGhost.Bounds))
                 this.Exit();
 
-            for (int i = 0; i < pacman.bounds.Count; i++){
-                if (pacman.NextBounds.Intersects(pacman.bounds[i]))
-                    this.Exit();
-        }
+            //for (int i = 0; i < pacman.bounds.Count; i++){
+            //    if (pacman.NextBounds.Intersects(pacman.bounds[i]))
+            //        this.Exit();
+
+        
 
             base.Update(gameTime);
         }
@@ -105,14 +106,14 @@ namespace Pacman
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Red);
 
             spriteBatch.Begin(SpriteSortMode.Texture, BlendState.AlphaBlend);
             
             pacman.Draw(spriteBatch);
             redGhost.Draw(spriteBatch);
             blueGhost.Draw(spriteBatch);
-            //pellet.Draw(spriteBatch);
+            pellet.Draw(spriteBatch);
             level.Draw(spriteBatch);
             
             spriteBatch.End();
