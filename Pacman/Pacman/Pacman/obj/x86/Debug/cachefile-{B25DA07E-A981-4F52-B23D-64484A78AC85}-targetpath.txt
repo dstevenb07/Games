@@ -1,0 +1,7 @@
+Content\Sprites\pacman0.xnb
+Content\Sprites\pacman1.xnb
+Content\Sprites\ghost0.xnb
+Content\Sprites\ghost1.xnb
+Content\Tiles\Wall.xnb
+Content\Tiles\Empty.xnb
+Content\Coins\pellet.xnb

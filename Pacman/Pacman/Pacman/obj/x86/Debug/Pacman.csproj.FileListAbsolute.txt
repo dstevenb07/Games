@@ -1,0 +1,13 @@
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pacman\Pacman\Pacman\bin\x86\Debug\Pacman.exe
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pacman\Pacman\Pacman\bin\x86\Debug\Pacman.pdb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pacman\Pacman\Pacman\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.exe
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.pdb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Sprites\pacman0.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Sprites\pacman1.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Sprites\ghost0.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Sprites\ghost1.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Tiles\Wall.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Tiles\Empty.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Coins\pellet.xnb
