@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Backgrounds\emptySpace.png</Source>
+      <Name>Backgrounds\emptySpace</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Backgrounds\emptySpace.xnb</Output>
+      <Time>2013-03-23T23:46:06.2624388+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Health\Health bar 1 outline.png</Source>
+      <Name>Health\Health bar 1 outline</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Health\Health bar 1 outline.xnb</Output>
+      <Time>2013-03-24T02:01:04.5056318+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Health\Health bar 1.png</Source>
+      <Name>Health\Health bar 1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Health\Health bar 1.xnb</Output>
+      <Time>2013-03-26T17:03:25.9714513+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\redDragonFlying.png</Source>
+      <Name>Sprites\redDragonFlying</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Sprites\redDragonFlying.xnb</Output>
+      <Time>2013-03-24T03:48:28.6762173+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\rocketFlames half size.png</Source>
+      <Name>Sprites\rocketFlames half size</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Sprites\rocketFlames half size.xnb</Output>
+      <Time>2013-03-24T02:30:35.5689308+00:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket GameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket GameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-02-19T10:04:48.3238744+00:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,11 @@
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Rocket Game.exe
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Rocket Game.pdb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\obj\x86\Debug\Rocket Game.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\obj\x86\Debug\Rocket Game.exe
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\obj\x86\Debug\Rocket Game.pdb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Backgrounds\emptySpace.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Health\Health bar 1 outline.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Health\Health bar 1.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Sprites\redDragonFlying.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Sprites\rocketFlames half size.xnb
