@@ -1,6 +1,5 @@
 C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Rocket Game.exe
 C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Rocket Game.pdb
-C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\obj\x86\Debug\Rocket Game.csprojResolveAssemblyReference.cache
 C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\obj\x86\Debug\Rocket Game.exe
 C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\obj\x86\Debug\Rocket Game.pdb
@@ -9,3 +8,20 @@ C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Roc
 C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Health\Health bar 1.xnb
 C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Sprites\redDragonFlying.xnb
 C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Sprites\rocketFlames half size.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Rocket Game.exe.manifest
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Rocket Game.application
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\obj\x86\Debug\Rocket Game.exe.manifest
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\obj\x86\Debug\Rocket Game.application
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Sprites\explosion.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Sprites\fire.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Sprites\fireburst.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Menu\meanGameOver.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Menu\pauseScreenCompleted.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\ScoreFont.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Menu\a winner is you.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Menu\Menu button.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Menu\playAgain.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\obj\x86\Debug\Rocket Game.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Menu\MenuSpaceFinished.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Sprites\squirrel.xnb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Menu\TrueLies underlines.xnb

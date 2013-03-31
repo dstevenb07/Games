@@ -5,17 +5,22 @@ using System.Text;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
 
 namespace Rocket_Game
 {
     class Enemy
     {
         Texture2D texture;
-        Vector2 position = new Vector2(1000, 175);
-        Vector2 velocity = new Vector2(-3, 0);
-        Rectangle bounds;
-        Camera camera;
-        bool toDraw = true;
+        public Vector2 position;
+        Vector2 velocity;
+        public Rectangle bounds;
+        public bool isVisible = true;
+
+        //List<Bullets> fireBalls = new List<Bullets>();
+        
+        Random random = new Random();
+        int randXVelo;
 
         // Animation variables
         int prevFrame = 0;
@@ -23,29 +28,38 @@ namespace Rocket_Game
         Vector2 frameSize = new Vector2(183, 142);
         Rectangle sheetPos;
 
-        public void LoadContent(ContentManager Content, Viewport viewport)
+        public Enemy(Texture2D texture, Vector2 position) 
         {
-            texture = Content.Load<Texture2D>(@"Sprites/redDragonFlying");
-            camera = new Camera(viewport);
+            this.texture = texture;
+            this.position = position;
+            
+            randXVelo = random.Next(-9, -6);
+            velocity = new Vector2(randXVelo, 0);
+        }
+        
+        
+        public void LoadContent(Viewport viewport, Player player)
+        {
         }
 
         public void Update(GameTime gameTime, Player player)
         {
-            camera.Update(gameTime, player);
-            if (position.X > camera.centre.X - 200 && toDraw == true)
-            {
-                position += velocity;
-            }
-            bounds = new Rectangle((int)position.X, (int)position.Y, (int)frameSize.X, (int)frameSize.Y);
             Animate(gameTime);
-            if (position.X < camera.centre.X - 200)
-                toDraw = false;
+            position += velocity;
+
+            //player.Update(gameTime, Keys.W, Keys.A, Keys.D, player);
+
+            //if (position.X < player.position.X - 600)
+            //{
+            //    isVisible = false;
+            //}
+            
+            bounds = new Rectangle((int)position.X + 50, (int)position.Y + 30, (int)frameSize.X -50, (int)frameSize.Y -30);
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            if (position.X > camera.centre.X - 200 && toDraw == true)
-                spriteBatch.Draw(texture, position, sheetPos, Color.White, 0f, Vector2.Zero, 1, SpriteEffects.FlipHorizontally, 0);
+                spriteBatch.Draw(texture, position, sheetPos, Color.White, 0f, Vector2.Zero, 1f, SpriteEffects.FlipHorizontally, 0);
         }
 
         private void Animate(GameTime gameTime) 
@@ -68,5 +82,6 @@ namespace Rocket_Game
                 prevFrame = 2;
             }
         }
+
     }
 }

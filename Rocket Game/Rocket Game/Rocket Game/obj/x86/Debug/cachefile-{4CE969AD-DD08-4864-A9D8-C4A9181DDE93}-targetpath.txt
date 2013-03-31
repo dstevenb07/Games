@@ -1,5 +1,17 @@
 Content\Backgrounds\emptySpace.xnb
-Content\Health\Health bar 1 outline.xnb
 Content\Health\Health bar 1.xnb
-Content\Sprites\redDragonFlying.xnb
+Content\Health\Health bar 1 outline.xnb
 Content\Sprites\rocketFlames half size.xnb
+Content\Sprites\redDragonFlying.xnb
+Content\Sprites\explosion.xnb
+Content\Sprites\fire.xnb
+Content\Sprites\fireburst.xnb
+Content\Menu\meanGameOver.xnb
+Content\Menu\pauseScreenCompleted.xnb
+Content\Menu\a winner is you.xnb
+Content\Menu\Menu button.xnb
+Content\Menu\playAgain.xnb
+Content\Menu\MenuSpaceFinished.xnb
+Content\Sprites\squirrel.xnb
+Content\Menu\TrueLies underlines.xnb
+Content\ScoreFont.xnb

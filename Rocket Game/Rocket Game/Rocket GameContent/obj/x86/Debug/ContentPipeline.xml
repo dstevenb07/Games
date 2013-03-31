@@ -11,6 +11,15 @@
       <Time>2013-03-23T23:46:06.2624388+00:00</Time>
     </Item>
     <Item>
+      <Source>Health\Health bar 1.png</Source>
+      <Name>Health\Health bar 1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Health\Health bar 1.xnb</Output>
+      <Time>2013-03-26T17:03:25.9714513+00:00</Time>
+    </Item>
+    <Item>
       <Source>Health\Health bar 1 outline.png</Source>
       <Name>Health\Health bar 1 outline</Name>
       <Importer>TextureImporter</Importer>
@@ -20,13 +29,13 @@
       <Time>2013-03-24T02:01:04.5056318+00:00</Time>
     </Item>
     <Item>
-      <Source>Health\Health bar 1.png</Source>
-      <Name>Health\Health bar 1</Name>
+      <Source>Sprites\rocketFlames half size.png</Source>
+      <Name>Sprites\rocketFlames half size</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Health\Health bar 1.xnb</Output>
-      <Time>2013-03-26T17:03:25.9714513+00:00</Time>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Sprites\rocketFlames half size.xnb</Output>
+      <Time>2013-03-24T02:30:35.5689308+00:00</Time>
     </Item>
     <Item>
       <Source>Sprites\redDragonFlying.png</Source>
@@ -38,18 +47,117 @@
       <Time>2013-03-24T03:48:28.6762173+00:00</Time>
     </Item>
     <Item>
-      <Source>Sprites\rocketFlames half size.png</Source>
-      <Name>Sprites\rocketFlames half size</Name>
+      <Source>Sprites\explosion.png</Source>
+      <Name>Sprites\explosion</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Sprites\rocketFlames half size.xnb</Output>
-      <Time>2013-03-24T02:30:35.5689308+00:00</Time>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Sprites\explosion.xnb</Output>
+      <Time>2013-03-28T14:39:50.8268684+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\fire.png</Source>
+      <Name>Sprites\fire</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Sprites\fire.xnb</Output>
+      <Time>2013-03-28T16:17:42.6287163+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\fireburst.png</Source>
+      <Name>Sprites\fireburst</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Sprites\fireburst.xnb</Output>
+      <Time>2013-03-28T17:29:40.4106793+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\meanGameOver.png</Source>
+      <Name>Menu\meanGameOver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Menu\meanGameOver.xnb</Output>
+      <Time>2013-03-29T21:56:56.0031777+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\pauseScreenCompleted.png</Source>
+      <Name>Menu\pauseScreenCompleted</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Menu\pauseScreenCompleted.xnb</Output>
+      <Time>2013-03-29T22:45:21.770378+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\a winner is you.png</Source>
+      <Name>Menu\a winner is you</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Menu\a winner is you.xnb</Output>
+      <Time>2013-03-30T00:03:53.2688603+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Menu button.png</Source>
+      <Name>Menu\Menu button</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Menu\Menu button.xnb</Output>
+      <Time>2013-03-30T00:33:42.2131821+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\playAgain.png</Source>
+      <Name>Menu\playAgain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Menu\playAgain.xnb</Output>
+      <Time>2013-03-30T00:36:56.1412741+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\MenuSpaceFinished.png</Source>
+      <Name>Menu\MenuSpaceFinished</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Menu\MenuSpaceFinished.xnb</Output>
+      <Time>2013-03-30T14:41:47.1985119+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\squirrel.png</Source>
+      <Name>Sprites\squirrel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Sprites\squirrel.xnb</Output>
+      <Time>2013-03-30T16:33:30.852939+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\TrueLies underlines.png</Source>
+      <Name>Menu\TrueLies underlines</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Menu\TrueLies underlines.xnb</Output>
+      <Time>2013-03-31T05:52:23.5797283+01:00</Time>
+    </Item>
+    <Item>
+      <Source>ScoreFont.spritefont</Source>
+      <Name>ScoreFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\ScoreFont.xnb</Output>
+      <Time>2013-03-30T00:00:06.7189024+00:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
-      <TargetProfile>HiDef</TargetProfile>
+      <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
       <RootDirectory>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket GameContent\</RootDirectory>

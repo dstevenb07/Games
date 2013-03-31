@@ -9,12 +9,12 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Rocket_Game
 {
-    class Player
+    public class Player
     {
         Texture2D texture;
         public Vector2 velocity = Vector2.Zero;
         float friction = 0.05f;
-        float rotation;
+        public float rotation;
         public Rectangle bounds;
         public Vector2 position;
         float originalVelocity = 5f;
@@ -29,6 +29,9 @@ namespace Rocket_Game
         Vector2 frameSize = new Vector2(78, 48);
         Rectangle sheetPos;
 
+        // Bullet vars
+        public List<Bullets> bullets = new List<Bullets>();
+
         public Player(Texture2D texture, Vector2 position, Color colour)
         {
             this.texture = texture;
@@ -36,7 +39,7 @@ namespace Rocket_Game
             this.colour = colour;
         }
 
-        public void LoadContent(Viewport viewport)
+        public void LoadContent(ContentManager Content, Viewport viewport)
         {
             camera = new Camera(viewport);
         }
@@ -111,5 +114,12 @@ namespace Rocket_Game
             if (currentFrameFlying.Y >= 4)
                 currentFrameFlying.Y = 0;
         }
+
+        public void shoot(Keys shoot, ContentManager Content, GameTime gameTime, Texture2D texture, Color colour)
+        {
+            if (Keyboard.GetState().IsKeyDown(shoot) && gameTime.TotalGameTime.Milliseconds % 150 == 0)
+                bullets.Add(new Bullets(texture, position, velocity, rotation, colour));
+        }
+
     }
 }

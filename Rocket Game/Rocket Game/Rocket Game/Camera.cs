@@ -20,7 +20,7 @@ namespace Rocket_Game
 
         public void Update(GameTime gameTime, Player player) 
         {
-            centre = new Vector2(player.position.X + (player.bounds.Width /2) - 400, 0);
+            centre = new Vector2(player.position.X + (player.bounds.Width /2) - 200, 0);
             transform = Matrix.CreateScale(new Vector3(1, 1, 0)) * Matrix.CreateTranslation(new Vector3(-centre.X, -centre.Y, 0));
         }
 
