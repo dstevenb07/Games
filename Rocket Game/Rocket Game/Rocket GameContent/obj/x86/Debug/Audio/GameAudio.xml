@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="Wave Bank">Wave Bank
+{
+    Name = Wave Bank;
+    Xbox File = Xbox\Wave Bank.xwb;
+    Windows File = Win\Wave Bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = &lt;none&gt;;
+    Bank Last Revised Low = 406411335;
+    Bank Last Revised High = 30289500;
+
+    Wave
+    {
+        Name = boss kill;
+        File = boss kill.wav;
+        Build Settings Last Modified Low = 285834439;
+        Build Settings Last Modified High = 30289500;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 92160;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1336216155;
+            Last Modified High = 30289499;
+        }
+    }
+
+    Wave
+    {
+        Name = dragon kill;
+        File = dragon kill.wav;
+        Build Settings Last Modified Low = 285834439;
+        Build Settings Last Modified High = 30289500;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 27648;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3033523235;
+            Last Modified High = 30289499;
+        }
+    }
+
+    Wave
+    {
+        Name = get hit;
+        File = get hit.wav;
+        Build Settings Last Modified Low = 285844439;
+        Build Settings Last Modified High = 30289500;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 39168;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3308608969;
+            Last Modified High = 30289499;
+        }
+    }
+
+    Wave
+    {
+        Name = Shooting noise;
+        File = Shooting noise.wav;
+        Build Settings Last Modified Low = 285854440;
+        Build Settings Last Modified High = 30289500;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 32256;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3430305930;
+            Last Modified High = 30289499;
+        }
+    }
+
+    Wave
+    {
+        Name = somecrack song;
+        File = somecrack song.wav;
+        Build Settings Last Modified Low = 285854440;
+        Build Settings Last Modified High = 30289500;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 334080;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3599125586;
+            Last Modified High = 30289499;
+        }
+    }
+
+    Wave
+    {
+        Name = when you die;
+        File = when you die.wav;
+        Build Settings Last Modified Low = 285864440;
+        Build Settings Last Modified High = 30289500;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 188928;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3784996217;
+            Last Modified High = 30289499;
+        }
+    }
+
+    Wave
+    {
+        Name = when you win;
+        File = when you win.wav;
+        Build Settings Last Modified Low = 285864440;
+        Build Settings Last Modified High = 30289500;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 59904;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3911923477;
+            Last Modified High = 30289499;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>

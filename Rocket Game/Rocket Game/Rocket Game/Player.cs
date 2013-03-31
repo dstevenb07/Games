@@ -6,6 +6,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Audio;
 
 namespace Rocket_Game
 {
@@ -21,6 +22,11 @@ namespace Rocket_Game
         Vector2 origin;
         Color colour;
         Camera camera;
+
+        AudioEngine audioEngine;
+        WaveBank waveBank;
+        SoundBank soundBank;
+        //Cue trackCue;
 
         // Animation variables
         int totalFrames = 4;
@@ -42,6 +48,9 @@ namespace Rocket_Game
         public void LoadContent(ContentManager Content, Viewport viewport)
         {
             camera = new Camera(viewport);
+            audioEngine = new AudioEngine(@"Content\Audio\GameAudio.xgs");
+            waveBank = new WaveBank(audioEngine, @"Content\Audio\Wave Bank.xwb");
+            soundBank = new SoundBank(audioEngine, @"Content\Audio\Sound Bank.xsb");
         }
         
         public void Update(GameTime gameTime, Keys up, Keys left, Keys right, Player player)
@@ -118,8 +127,10 @@ namespace Rocket_Game
         public void shoot(Keys shoot, ContentManager Content, GameTime gameTime, Texture2D texture, Color colour)
         {
             if (Keyboard.GetState().IsKeyDown(shoot) && gameTime.TotalGameTime.Milliseconds % 150 == 0)
+            {
+                soundBank.PlayCue("Shooting noise");
                 bullets.Add(new Bullets(texture, position, velocity, rotation, colour));
+            }
         }
-
     }
 }

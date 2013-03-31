@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
 using System;
+using Microsoft.Xna.Framework.Audio;
 
 namespace Rocket_Game
 {
@@ -13,6 +14,11 @@ namespace Rocket_Game
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+
+        AudioEngine audioEngine;
+        WaveBank waveBank;
+        SoundBank soundBank;
+        Cue trackCue;
 
         List<Enemy> enemies = new List<Enemy>();
         List<FireBalls> fireBalls = new List<FireBalls>();
@@ -94,7 +100,7 @@ namespace Rocket_Game
         protected override void Initialize()
         {
             background = new Background();
-            player1 = new Player(Content.Load<Texture2D>(@"Sprites/rocketFlames half size"), new Vector2(0, 150), Color.White);
+            player1 = new Player(Content.Load<Texture2D>(@"Sprites/rocketFlames half size"), new Vector2(8000, 150), Color.White);
             player2 = new Player(Content.Load<Texture2D>(@"Sprites/rocketFlames half size"), new Vector2(0, 350), Color.MediumPurple);
             health1 = new HealthBar(30, Color.Red);
             health2 = new HealthBar(570, Color.Purple);
@@ -121,6 +127,10 @@ namespace Rocket_Game
             player2.LoadContent(Content, GraphicsDevice.Viewport);
             boss.LoadContent(Content);
 
+            audioEngine = new AudioEngine(@"Content\Audio\GameAudio.xgs");
+            waveBank = new WaveBank(audioEngine, @"Content\Audio\Wave Bank.xwb");
+            soundBank = new SoundBank(audioEngine, @"Content\Audio\Sound Bank.xsb");
+
             explosion = Content.Load<Texture2D>(@"Sprites/fireburst");
             loseScreen = Content.Load<Texture2D>(@"Menu/meanGameOver");
             pauseScreen = Content.Load<Texture2D>(@"Menu/pauseScreenCompleted");
@@ -130,6 +140,9 @@ namespace Rocket_Game
             menuButton = Content.Load<Texture2D>(@"Menu/Menu button");
             menuScreen = Content.Load<Texture2D>(@"Menu/MenuSpaceFinished");
             underline = Content.Load<Texture2D>(@"Menu/TrueLies underlines");
+
+            trackCue = soundBank.GetCue("somecrack song");
+            trackCue.Play();
         }
 
         /// <summary>
@@ -182,31 +195,31 @@ namespace Rocket_Game
 
                     if (mouseRect.Intersects(singleBounds) && mouse.LeftButton == ButtonState.Pressed)
                         currentState = GameState.OnePlayer;
-                    if (mouseRect.Intersects(singleBounds))
+                    else if (mouseRect.Intersects(singleBounds))
                         underlinePos = singleUnderline;
                     //else
                     //    underlinePos = Vector2.Zero;
 
-                    if (mouseRect.Intersects(coopBounds) && mouse.LeftButton == ButtonState.Pressed)
+                    else if (mouseRect.Intersects(coopBounds) && mouse.LeftButton == ButtonState.Pressed)
                         currentState = GameState.TwoPlayer;
-                    if (mouseRect.Intersects(coopBounds))
+                    else if (mouseRect.Intersects(coopBounds))
                         underlinePos = coopUnderline;
                     //else
                     //    underlinePos = Vector2.Zero;
 
-                    if (mouseRect.Intersects(creditBounds) && mouse.LeftButton == ButtonState.Pressed)
+                    else if (mouseRect.Intersects(creditBounds) && mouse.LeftButton == ButtonState.Pressed)
                     {
                         //currentState = GameState.Credits;
                     }
-                    if (mouseRect.Intersects(creditBounds))
+                    else if (mouseRect.Intersects(creditBounds))
                         underlinePos = creditUnderline;
-                    
-                    if (mouseRect.Intersects(exitBounds) && mouse.LeftButton == ButtonState.Pressed)
+
+                    else if (mouseRect.Intersects(exitBounds) && mouse.LeftButton == ButtonState.Pressed)
                         this.Exit();
-                    if (mouseRect.Intersects(exitBounds))
+                    else if (mouseRect.Intersects(exitBounds))
                         underlinePos = exitUnderline;
-                    //else
-                    //    underlinePos = Vector2.Zero;
+                    else
+                        underlinePos = Vector2.Zero;
 
                     break;
                 case GameState.OnePlayer:
@@ -237,6 +250,7 @@ namespace Rocket_Game
                         CollisionChecks(gameTime, player1, player2, enemies, fireBalls, health1, health2);
                         if (health1.health <= 0)
                         {
+                            soundBank.PlayCue("when you die");
                             prevState = GameState.OnePlayer;
                             currentState = GameState.Lose;
                         }
@@ -248,6 +262,7 @@ namespace Rocket_Game
 
                         if (player1.position.X >= 10500)
                         {
+                            soundBank.PlayCue("when you win");
                             prevState = GameState.OnePlayer;
                             currentState = GameState.Win;
                         }
@@ -310,6 +325,7 @@ namespace Rocket_Game
 
                         if (health1.health <= 0 || health2.health <= 0)
                         {
+                            soundBank.PlayCue("when you die");
                             prevState = GameState.TwoPlayer;
                             currentState = GameState.Lose;
                         }
@@ -321,6 +337,7 @@ namespace Rocket_Game
 
                         if (player1.position.X >= 10500 || player2.position.X >= 10500)
                         {
+                            soundBank.PlayCue("when you win");
                             prevState = GameState.TwoPlayer;
                             currentState = GameState.Win;
                         }
@@ -629,6 +646,7 @@ namespace Rocket_Game
             for (int i = 0; i < enemies.Count; i++)
                 if (player1.bounds.Intersects(enemies[i].bounds))
                 {
+                    soundBank.PlayCue("get hit");
                     health1.health -= 20;
                     explosionPos = enemies[i].position + new Vector2(50, 50);
                     enemies.RemoveAt(i);
@@ -638,6 +656,7 @@ namespace Rocket_Game
             for (int i = 0; i < fireBalls.Count; i++)
                 if (player1.bounds.Intersects(fireBalls[i].bounds))
                 {
+                    soundBank.PlayCue("get hit");
                     health1.health -= 10;
                     explosionPos = fireBalls[i].position;
                     fireBalls.RemoveAt(i);
@@ -648,6 +667,7 @@ namespace Rocket_Game
                 for (int j = 0; j < enemies.Count; j++)
                     if (player1.bullets[i].bounds.Intersects(enemies[j].bounds))
                     {
+                        soundBank.PlayCue("dragon kill");
                         explosionPos = enemies[j].position;
                         enemies.RemoveAt(j);
                         score++;
@@ -667,6 +687,7 @@ namespace Rocket_Game
             for (int i = 0; i < enemies.Count; i++)
                 if (player2.bounds.Intersects(enemies[i].bounds))
                 {
+                    soundBank.PlayCue("get hit");
                     health2.health -= 20;
                     explosionPos = enemies[i].position + new Vector2(50, 50);
                     enemies.RemoveAt(i);
@@ -676,6 +697,7 @@ namespace Rocket_Game
             for (int i = 0; i < fireBalls.Count; i++)
                 if (player2.bounds.Intersects(fireBalls[i].bounds))
                 {
+                    soundBank.PlayCue("get hit");
                     health2.health -= 10;
                     explosionPos = fireBalls[i].position;
                     fireBalls.RemoveAt(i);
@@ -686,6 +708,7 @@ namespace Rocket_Game
                 for (int j = 0; j < enemies.Count; j++)
                     if (player2.bullets[i].bounds.Intersects(enemies[j].bounds))
                     {
+                        soundBank.PlayCue("dragon kill");
                         explosionPos = enemies[j].position;
                         enemies.RemoveAt(j);
                         score++;
