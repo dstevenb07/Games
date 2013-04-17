@@ -4,6 +4,7 @@ using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
 using System;
 using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Media;
 
 namespace Rocket_Game
 {
@@ -20,6 +21,11 @@ namespace Rocket_Game
         SoundBank soundBank;
         Cue trackCue;
 
+        VideoPlayer videoPlayer;
+        Video story;
+        Video credits;
+        public bool firstStart = true;
+
         List<Enemy> enemies = new List<Enemy>();
         List<FireBalls> fireBalls = new List<FireBalls>();
 
@@ -31,6 +37,7 @@ namespace Rocket_Game
         Texture2D againButton;
         Texture2D menuButton;
         Texture2D underline;
+        Texture2D girl;
 
         Vector2 singleUnderline = new Vector2(260, 188);
         Vector2 coopUnderline = new Vector2(260, 280);
@@ -100,12 +107,13 @@ namespace Rocket_Game
         protected override void Initialize()
         {
             background = new Background();
-            player1 = new Player(Content.Load<Texture2D>(@"Sprites/rocketFlames half size"), new Vector2(8000, 150), Color.White);
+            player1 = new Player(Content.Load<Texture2D>(@"Sprites/rocketFlames half size"), new Vector2(0, 150), Color.White);
             player2 = new Player(Content.Load<Texture2D>(@"Sprites/rocketFlames half size"), new Vector2(0, 350), Color.MediumPurple);
             health1 = new HealthBar(30, Color.Red);
             health2 = new HealthBar(570, Color.Purple);
             camera = new Camera(GraphicsDevice.Viewport);
             boss = new Boss();
+            videoPlayer = new VideoPlayer();
 
             base.Initialize();
         }
@@ -140,6 +148,10 @@ namespace Rocket_Game
             menuButton = Content.Load<Texture2D>(@"Menu/Menu button");
             menuScreen = Content.Load<Texture2D>(@"Menu/MenuSpaceFinished");
             underline = Content.Load<Texture2D>(@"Menu/TrueLies underlines");
+            girl = Content.Load<Texture2D>(@"Sprites/caroline_wosten");
+
+            story = Content.Load<Video>(@"Videos/Dylans_Game_Story");
+            //credits = Content.Load<Video>(@"Dylans_Game_Credits");
 
             trackCue = soundBank.GetCue("somecrack song");
             trackCue.Play();
@@ -172,54 +184,66 @@ namespace Rocket_Game
                     //currentState = GameState.Menu;
                     camera.Update(gameTime, player1);
 
-                    singleUnderline = new Vector2(camera.centre.X + 260, 188);
-                    coopUnderline = new Vector2(camera.centre.X + 260, 280);
-                    creditUnderline = new Vector2(camera.centre.X + 260, 375);
-                    exitUnderline = new Vector2(camera.centre.X + 260, 459);
+                    videoPlayer.Play(story);
 
-                    //health1.health = 100;
-                    //health2.health = 100;
-                    //for (int i = 0; i < enemies.Count; i++)
-                    //    enemies.RemoveAt(i);
-                    //for (int i = 0; i < fireBalls.Count; i++)
-                    //    fireBalls.RemoveAt(i);
-                    //explosionPos = Vector2.Zero;
-                    //score = 0;
-                    //player1.position = new Vector2(0, 150);
-                    //player2.position = new Vector2(0, 350);
-                    //player1.rotation = 0;
-                    //player2.rotation = 0;
-                    //player1.velocity = new Vector2(0, 0);
-                    //player2.velocity = new Vector2(0, 0);
-                    //boss.health = 100;
-
-                    if (mouseRect.Intersects(singleBounds) && mouse.LeftButton == ButtonState.Pressed)
-                        currentState = GameState.OnePlayer;
-                    else if (mouseRect.Intersects(singleBounds))
-                        underlinePos = singleUnderline;
-                    //else
-                    //    underlinePos = Vector2.Zero;
-
-                    else if (mouseRect.Intersects(coopBounds) && mouse.LeftButton == ButtonState.Pressed)
-                        currentState = GameState.TwoPlayer;
-                    else if (mouseRect.Intersects(coopBounds))
-                        underlinePos = coopUnderline;
-                    //else
-                    //    underlinePos = Vector2.Zero;
-
-                    else if (mouseRect.Intersects(creditBounds) && mouse.LeftButton == ButtonState.Pressed)
+                    if (Keyboard.GetState().IsKeyDown(Keys.Enter) && videoPlayer.State == MediaState.Playing)
                     {
-                        //currentState = GameState.Credits;
+                        videoPlayer.Stop();
+                        firstStart = false;
                     }
-                    else if (mouseRect.Intersects(creditBounds))
-                        underlinePos = creditUnderline;
 
-                    else if (mouseRect.Intersects(exitBounds) && mouse.LeftButton == ButtonState.Pressed)
-                        this.Exit();
-                    else if (mouseRect.Intersects(exitBounds))
-                        underlinePos = exitUnderline;
-                    else
-                        underlinePos = Vector2.Zero;
+                    if (videoPlayer.State == MediaState.Stopped)
+                    {
+
+                        singleUnderline = new Vector2(camera.centre.X + 260, 188);
+                        coopUnderline = new Vector2(camera.centre.X + 260, 280);
+                        creditUnderline = new Vector2(camera.centre.X + 260, 375);
+                        exitUnderline = new Vector2(camera.centre.X + 260, 459);
+
+                        //health1.health = 100;
+                        //health2.health = 100;
+                        //for (int i = 0; i < enemies.Count; i++)
+                        //    enemies.RemoveAt(i);
+                        //for (int i = 0; i < fireBalls.Count; i++)
+                        //    fireBalls.RemoveAt(i);
+                        //explosionPos = Vector2.Zero;
+                        //score = 0;
+                        //player1.position = new Vector2(0, 150);
+                        //player2.position = new Vector2(0, 350);
+                        //player1.rotation = 0;
+                        //player2.rotation = 0;
+                        //player1.velocity = new Vector2(0, 0);
+                        //player2.velocity = new Vector2(0, 0);
+                        //boss.health = 100;
+
+                        if (mouseRect.Intersects(singleBounds) && mouse.LeftButton == ButtonState.Pressed)
+                            currentState = GameState.OnePlayer;
+                        else if (mouseRect.Intersects(singleBounds))
+                            underlinePos = singleUnderline;
+                        //else
+                        //    underlinePos = Vector2.Zero;
+
+                        else if (mouseRect.Intersects(coopBounds) && mouse.LeftButton == ButtonState.Pressed)
+                            currentState = GameState.TwoPlayer;
+                        else if (mouseRect.Intersects(coopBounds))
+                            underlinePos = coopUnderline;
+                        //else
+                        //    underlinePos = Vector2.Zero;
+
+                        else if (mouseRect.Intersects(creditBounds) && mouse.LeftButton == ButtonState.Pressed)
+                        {
+                            //currentState = GameState.Credits;
+                        }
+                        else if (mouseRect.Intersects(creditBounds))
+                            underlinePos = creditUnderline;
+
+                        else if (mouseRect.Intersects(exitBounds) && mouse.LeftButton == ButtonState.Pressed)
+                            this.Exit();
+                        else if (mouseRect.Intersects(exitBounds))
+                            underlinePos = exitUnderline;
+                        else
+                            underlinePos = Vector2.Zero;
+                    }
 
                     break;
                 case GameState.OnePlayer:
@@ -512,6 +536,11 @@ namespace Rocket_Game
             switch (currentState)
             {
                 case GameState.Menu:
+                    if (videoPlayer.State == MediaState.Playing)
+                    {
+                        spriteBatch.Draw(videoPlayer.GetTexture(), new Rectangle((int)camera.centre.X, 15, 800, 450), Color.White);
+                    }
+                    
                     spriteBatch.Draw(menuScreen, new Vector2(camera.centre.X, 0), Color.White);
                     if (underlinePos != Vector2.Zero)
                         spriteBatch.Draw(underline, underlinePos, Color.White);
@@ -524,6 +553,8 @@ namespace Rocket_Game
                         enemy.Draw(spriteBatch);
 
                     player1.Draw(spriteBatch);
+
+                    spriteBatch.Draw(girl, new Vector2(10500, 80), Color.White);
 
                     boss.Draw(spriteBatch);
 
@@ -566,6 +597,8 @@ namespace Rocket_Game
                         enemy.Draw(spriteBatch);
                     player2.Draw(spriteBatch);
                     player1.Draw(spriteBatch);
+
+                    spriteBatch.Draw(girl, new Vector2(10500, 80), Color.White);
 
                     foreach (FireBalls fireBall in fireBalls)
                         fireBall.Draw(spriteBatch);
@@ -750,5 +783,7 @@ namespace Rocket_Game
                     i--;
                 }
         }
+
+        
     }
 }

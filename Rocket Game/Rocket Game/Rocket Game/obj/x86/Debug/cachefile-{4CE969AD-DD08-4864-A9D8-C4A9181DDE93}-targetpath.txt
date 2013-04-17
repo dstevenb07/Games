@@ -15,6 +15,7 @@ Content\Menu\MenuSpaceFinished.xnb
 Content\Sprites\squirrel.xnb
 Content\Menu\TrueLies underlines.xnb
 Content\ScoreFont.xnb
+Content\Sprites\caroline_wosten.xnb
 Content\Audio\GameAudio.xgs
 Content\Audio\Wave Bank.xwb
 Content\Audio\Sound Bank.xsb

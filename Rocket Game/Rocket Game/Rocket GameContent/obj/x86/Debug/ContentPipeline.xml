@@ -154,7 +154,25 @@
       <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\ScoreFont.xnb</Output>
       <Time>2013-03-30T00:00:06.7189024+00:00</Time>
     </Item>
-    <BuildSuccessful>true</BuildSuccessful>
+    <Item>
+      <Source>Sprites\caroline_wosten.png</Source>
+      <Name>Sprites\caroline_wosten</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Sprites\caroline_wosten.xnb</Output>
+      <Time>2013-04-05T20:54:54.5650689+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Videos\Dylans_Game_Story.wmv</Source>
+      <Name>Videos\Dylans_Game_Story</Name>
+      <Importer>WmvImporter</Importer>
+      <Processor>VideoProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Videos\Dylans_Game_Story.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <BuildSuccessful>false</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
       <TargetProfile>Reach</TargetProfile>

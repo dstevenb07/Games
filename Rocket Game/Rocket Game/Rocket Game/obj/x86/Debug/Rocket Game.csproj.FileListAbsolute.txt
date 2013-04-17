@@ -28,3 +28,4 @@ C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Roc
 C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Audio\GameAudio.xgs
 C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Audio\Wave Bank.xwb
 C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\Users\Dylan\Documents\Visual Studio 2010\Projects\Rocket Game\Rocket Game\Rocket Game\bin\x86\Debug\Content\Sprites\caroline_wosten.xnb
